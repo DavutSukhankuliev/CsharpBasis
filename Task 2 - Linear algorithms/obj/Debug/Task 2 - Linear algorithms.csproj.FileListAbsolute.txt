@@ -1,0 +1,6 @@
+D:\Davut\University\Master ITMO\2 semester\CsharpBasis\Task 2 - Linear algorithms\bin\Debug\Task_2___Linear_algorithms.exe
+D:\Davut\University\Master ITMO\2 semester\CsharpBasis\Task 2 - Linear algorithms\bin\Debug\Task_2___Linear_algorithms.pdb
+D:\Davut\University\Master ITMO\2 semester\CsharpBasis\Task 2 - Linear algorithms\obj\Debug\Task 2 - Linear algorithms.csproj.AssemblyReference.cache
+D:\Davut\University\Master ITMO\2 semester\CsharpBasis\Task 2 - Linear algorithms\obj\Debug\Task 2 - Linear algorithms.csproj.CoreCompileInputs.cache
+D:\Davut\University\Master ITMO\2 semester\CsharpBasis\Task 2 - Linear algorithms\obj\Debug\Task_2___Linear_algorithms.exe
+D:\Davut\University\Master ITMO\2 semester\CsharpBasis\Task 2 - Linear algorithms\obj\Debug\Task_2___Linear_algorithms.pdb

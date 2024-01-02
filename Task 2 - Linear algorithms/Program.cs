@@ -1,4 +1,6 @@
-﻿namespace CsharpBasis
+﻿using System;
+
+namespace Task_2___Linear_algorithms
 {
     internal class Program
     {
