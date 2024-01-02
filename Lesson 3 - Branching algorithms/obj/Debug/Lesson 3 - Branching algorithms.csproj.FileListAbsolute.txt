@@ -1,0 +1,6 @@
+D:\Davut\University\Master ITMO\2 semester\CsharpBasis\Lesson 3 - Branching algorithms\bin\Debug\Lesson_3___Branching_algorithms.exe
+D:\Davut\University\Master ITMO\2 semester\CsharpBasis\Lesson 3 - Branching algorithms\bin\Debug\Lesson_3___Branching_algorithms.pdb
+D:\Davut\University\Master ITMO\2 semester\CsharpBasis\Lesson 3 - Branching algorithms\obj\Debug\Lesson 3 - Branching algorithms.csproj.AssemblyReference.cache
+D:\Davut\University\Master ITMO\2 semester\CsharpBasis\Lesson 3 - Branching algorithms\obj\Debug\Lesson 3 - Branching algorithms.csproj.CoreCompileInputs.cache
+D:\Davut\University\Master ITMO\2 semester\CsharpBasis\Lesson 3 - Branching algorithms\obj\Debug\Lesson_3___Branching_algorithms.exe
+D:\Davut\University\Master ITMO\2 semester\CsharpBasis\Lesson 3 - Branching algorithms\obj\Debug\Lesson_3___Branching_algorithms.pdb
