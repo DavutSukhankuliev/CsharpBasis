@@ -11,7 +11,7 @@ namespace Task_2___Linear_algorithms
             {
                 Console.WriteLine("Введите номер задачи 1-3. Для выполнения нажмите Enter");
                 int.TryParse(Console.ReadLine(), out taskNumber);
-            } while (taskNumber > 0 && taskNumber < 4);
+            } while (taskNumber < 1 || taskNumber > 3);
 
             string result;
             switch (taskNumber)
@@ -27,7 +27,7 @@ namespace Task_2___Linear_algorithms
                         {
                             Console.WriteLine("Длина окружности должна быть положительной");
                         }
-                    } while (length >= 0);
+                    } while (length < 0);
                    
                     Task1.GetRadiusAndSquare(length, out var radius, out var square);
                     result = $"Радиус окружности с длинной {length} равен {radius} ед." +
