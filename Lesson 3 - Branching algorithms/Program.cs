@@ -78,6 +78,7 @@ namespace Lesson_3___Branching_algorithms
             }
 
             Console.WriteLine(result);
+            Console.ReadKey();
         }
     }
 }

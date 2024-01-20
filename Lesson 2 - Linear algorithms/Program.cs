@@ -84,8 +84,7 @@ namespace Task_2___Linear_algorithms
             }
 
             Console.WriteLine(result);
-            
-            
+            Console.ReadKey();
         }
     }
 }
