@@ -2,17 +2,13 @@
 
 namespace Task_2___Linear_algorithms
 {
-    class Task1
+    internal class Task1
     {
-        void Main()
+        public static void GetRadiusAndSquare(double length, out double radius, out double square)
         {
             /*Обязательная задача*. Дана длина L окружности. Найти ее радиус R и площадь S круга, ограниченного этой окружностью.*/
-            Console.WriteLine("Введите длину окружности L:");
-            double length = Convert.ToDouble(Console.ReadLine());
-            double radius = length / (2 * Math.PI);
-            double square = Math.PI * Math.Pow(radius, 2);
-            Console.WriteLine($"Радиус равен = {radius}");
-            Console.WriteLine($"Площадь круга = {square}");
+            radius = length / (2 * Math.PI);
+            square = Math.PI * Math.Pow(radius, 2);
         }
     }
 }
