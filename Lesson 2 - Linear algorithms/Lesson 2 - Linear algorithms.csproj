@@ -8,8 +8,8 @@
         <ProjectGuid>{C2D5878F-B55C-430B-AD0F-02A52B8B8768}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Task_2___Linear_algorithms</RootNamespace>
-        <AssemblyName>Task_2___Linear_algorithms</AssemblyName>
+        <RootNamespace>Lesson_2___Linear_algorithms</RootNamespace>
+        <AssemblyName>Lesson_2___Linear_algorithms</AssemblyName>
         <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Task_2___Linear_algorithms
+namespace Lesson_2___Linear_algorithms
 {
     internal class Task3
     {
