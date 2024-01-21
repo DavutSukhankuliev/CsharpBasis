@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Lesson_4___Loop_algorithms
 {
@@ -60,6 +61,26 @@ namespace Lesson_4___Loop_algorithms
                             break;
                         }
                     }
+                    break;
+                }
+                case 2:
+                {
+                    Console.WriteLine("Введите последовательность целых чисел через Enter (для завершения введите 0 и нажмите Enter):");
+                    
+                    var task2 = new Task2();
+                    var numbers = new List<int>(); 
+                    int input;
+                    do
+                    {
+                        int.TryParse(Console.ReadLine(), out input);
+                        numbers.Add(input);
+                    } while (input != 0);
+
+                    numbers.RemoveAt(numbers.Count - 1);
+
+                    result = task2.IsPositivesMore(numbers.ToArray())
+                        ? "В введенной последовательности больше положительных чисел"
+                        : "В введенной последовательности больше отрицательных чисел";
                     break;
                 }
             }
