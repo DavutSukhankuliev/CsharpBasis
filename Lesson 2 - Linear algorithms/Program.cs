@@ -21,12 +21,8 @@ namespace Lesson_2___Linear_algorithms
                     double length;
                     do
                     {
-                        Console.WriteLine("Введите длину окружности L:");
+                        Console.WriteLine("Введите длину окружности L. Длина окружности должна быть положительной:");
                         double.TryParse(Console.ReadLine(), out length);
-                        if (length < 0)
-                        {
-                            Console.WriteLine("Длина окружности должна быть положительной");
-                        }
                     } while (length < 0);
                    
                     Task1.GetRadiusAndSquare(length, out var radius, out var square);
