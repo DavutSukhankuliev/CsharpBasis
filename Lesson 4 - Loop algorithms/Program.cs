@@ -83,6 +83,22 @@ namespace Lesson_4___Loop_algorithms
                         : "В введенной последовательности больше отрицательных чисел";
                     break;
                 }
+                case 3:
+                {
+                    var task3 = new Task3();
+                    
+                    Console.WriteLine("Введите A длину прямоугольника:");
+                    int.TryParse(Console.ReadLine(), out var a);
+                    Console.WriteLine("Введите B высоту прямоугольника:");
+                    int.TryParse(Console.ReadLine(), out var b);
+                    Console.WriteLine("Введите C длину квадрта:");
+                    int.TryParse(Console.ReadLine(), out var c);
+
+                    result = $"Максимальное количество квадратов в прямоугольнике = {task3.MaxSquaresInRectangle(a, b)}" +
+                             $"\r\nМаксимальное количество квадратов с длиной сторон {c} = {task3.MaxSquaresInRectangle(a, b, c)}";
+                    
+                    break;
+                }
             }
 
             Console.WriteLine(result);
