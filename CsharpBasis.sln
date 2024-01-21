@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 2 - Linear algorithm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 3 - Branching algorithms", "Lesson 3 - Branching algorithms\Lesson 3 - Branching algorithms.csproj", "{99B20A25-DF3F-4F35-833E-E8B7E6F28C56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 4 - Loop algorithms", "Lesson 4 - Loop algorithms\Lesson 4 - Loop algorithms.csproj", "{A53DBB62-4800-4958-83B4-4DCA98E4A2BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{99B20A25-DF3F-4F35-833E-E8B7E6F28C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99B20A25-DF3F-4F35-833E-E8B7E6F28C56}.Release|Any CPU.Build.0 = Release|Any CPU
 		{99B20A25-DF3F-4F35-833E-E8B7E6F28C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53DBB62-4800-4958-83B4-4DCA98E4A2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53DBB62-4800-4958-83B4-4DCA98E4A2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53DBB62-4800-4958-83B4-4DCA98E4A2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53DBB62-4800-4958-83B4-4DCA98E4A2BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
