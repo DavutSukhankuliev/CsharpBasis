@@ -26,7 +26,7 @@ namespace Task_3._1___Find_fourth_point_of_rectangle
     {
         public static void Main(string[] args)
         {
-            // TODO: loop and case 1 and 2 if statement fix
+            // TODO: loop
 
             Console.WriteLine("Введите 2D координаты первой точки через запятую, по типу 'x,y':");
             var strings = Console.ReadLine()?.Split(new char[]{','},StringSplitOptions.RemoveEmptyEntries);
@@ -48,10 +48,14 @@ namespace Task_3._1___Find_fourth_point_of_rectangle
         
         private static Point2D FindFourthCoord(Point2D pointA, Point2D pointB, Point2D pointC)
         {
-            if (pointA.X == pointB.X && pointB.Y == pointC.Y)
+            var squareAB = (int)(Math.Pow(pointA.X - pointB.X, 2) + Math.Pow(pointA.Y - pointB.Y, 2));
+            var squareAC = (int)(Math.Pow(pointA.X - pointC.X, 2) + Math.Pow(pointA.Y - pointC.Y, 2));
+            var squareBC = (int)(Math.Pow(pointB.X - pointC.X, 2) + Math.Pow(pointB.Y - pointC.Y, 2));
+
+            if (squareAB != 0 && squareAC != 0 && squareBC != 0 && (squareAB == squareAC + squareBC || squareAC == squareAB + squareBC || squareBC == squareAB + squareAC))
             {
-                var x = pointA.X + pointC.X - pointB.X;
-                var y = pointA.Y + pointC.Y - pointB.Y;
+                var x = pointA.X ^ pointB.X ^ pointC.X;
+                var y = pointA.Y ^ pointB.Y ^ pointC.Y;
                 return new Point2D(x, y);
             }
             else
