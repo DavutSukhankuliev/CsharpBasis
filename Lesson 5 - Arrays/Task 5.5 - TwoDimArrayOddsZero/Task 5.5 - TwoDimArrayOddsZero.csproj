@@ -5,12 +5,12 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{C2D5878F-B55C-430B-AD0F-02A52B8B8768}</ProjectGuid>
+        <ProjectGuid>{4DF7D9C1-4757-455E-A3B2-2BEDA221A89F}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Lesson_2___Linear_algorithms</RootNamespace>
-        <AssemblyName>Lesson_2___Linear_algorithms</AssemblyName>
-        <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+        <RootNamespace>Task_5._5___TwoDimArrayOddsZero</RootNamespace>
+        <AssemblyName>Task_5._5___TwoDimArrayOddsZero</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     </PropertyGroup>
@@ -42,9 +42,6 @@
     <ItemGroup>
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
-        <Compile Include="Task1.cs" />
-        <Compile Include="Task2.cs" />
-        <Compile Include="Task3.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

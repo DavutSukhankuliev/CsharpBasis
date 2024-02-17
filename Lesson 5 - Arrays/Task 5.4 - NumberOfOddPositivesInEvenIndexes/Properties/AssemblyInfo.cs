@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Task_2___Linear_algorithms")]
+[assembly: AssemblyTitle("Task_5._4___NumberOfOddPositivesInEvenIndexes")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Task_2___Linear_algorithms")]
+[assembly: AssemblyProduct("Task_5._4___NumberOfOddPositivesInEvenIndexes")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("C2D5878F-B55C-430B-AD0F-02A52B8B8768")]
+[assembly: Guid("32B95AA3-2B9A-4E2F-808C-C4A6BDC43A8A")]
 
 // Version information for an assembly consists of the following four values:
 //

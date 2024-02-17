@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Lesson_4___Loop_algorithms")]
+[assembly: AssemblyTitle("Task_5._2___Sum_of_MinMax")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Lesson_4___Loop_algorithms")]
+[assembly: AssemblyProduct("Task_5._2___Sum_of_MinMax")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("A53DBB62-4800-4958-83B4-4DCA98E4A2BC")]
+[assembly: Guid("75B1DC1A-50D8-4A32-BF90-4579F64F6000")]
 
 // Version information for an assembly consists of the following four values:
 //

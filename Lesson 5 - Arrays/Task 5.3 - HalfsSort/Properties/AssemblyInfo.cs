@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Lesson_3___Branching_algorithms")]
+[assembly: AssemblyTitle("Task_5._3___HalfsSort")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Lesson_3___Branching_algorithms")]
+[assembly: AssemblyProduct("Task_5._3___HalfsSort")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("99B20A25-DF3F-4F35-833E-E8B7E6F28C56")]
+[assembly: Guid("C1FF30E6-950C-4C79-BBF9-49207342DACC")]
 
 // Version information for an assembly consists of the following four values:
 //
