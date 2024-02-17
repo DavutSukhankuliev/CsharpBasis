@@ -44,7 +44,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 5.3 - HalfsSort", "Tas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 5.4 - NumberOfOddPositivesInEvenIndexes", "Task 5.4 - NumberOfOddPositivesInEvenIndexes\Task 5.4 - NumberOfOddPositivesInEvenIndexes.csproj", "{32B95AA3-2B9A-4E2F-808C-C4A6BDC43A8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks 5.5 - TwoDimArrayOddsZero", "Tasks 5.5 - TwoDimArrayOddsZero\Tasks 5.5 - TwoDimArrayOddsZero.csproj", "{4DF7D9C1-4757-455E-A3B2-2BEDA221A89F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 5.5 - TwoDimArrayOddsZero", "Task 5.5 - TwoDimArrayOddsZero\Task 5.5 - TwoDimArrayOddsZero.csproj", "{4DF7D9C1-4757-455E-A3B2-2BEDA221A89F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

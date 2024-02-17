@@ -8,8 +8,8 @@
         <ProjectGuid>{4DF7D9C1-4757-455E-A3B2-2BEDA221A89F}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Tasks_5._5___TwoDimArrayOddsZero</RootNamespace>
-        <AssemblyName>Tasks_5._5___TwoDimArrayOddsZero</AssemblyName>
+        <RootNamespace>Task_5._5___TwoDimArrayOddsZero</RootNamespace>
+        <AssemblyName>Task_5._5___TwoDimArrayOddsZero</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
