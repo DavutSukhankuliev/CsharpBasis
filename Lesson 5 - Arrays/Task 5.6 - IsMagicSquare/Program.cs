@@ -49,7 +49,7 @@ namespace Task_5._6___IsMagicSquare
                             newArray[i, j] = 0;
                         }
                     }
-                    catch (Exception e)
+                    catch
                     {
                         newArray[i, j] = 0;
                     }
