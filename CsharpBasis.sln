@@ -40,6 +40,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 5.6 - IsMagicSquare", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 5.4 - NumberOfOddPositivesInEvenIndexes", "Lesson 5 - Arrays\Task 5.4 - NumberOfOddPositivesInEvenIndexes\Task 5.4 - NumberOfOddPositivesInEvenIndexes.csproj", "{32B95AA3-2B9A-4E2F-808C-C4A6BDC43A8A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 6 - Strings", "Lesson 6 - Strings", "{36BC65B9-897D-4973-92D0-4B8BEB5FECBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 6.1 - LongestWordInPhrase", "Lesson 6 - Strings\Task 6.1 - LongestWordInPhrase\Task 6.1 - LongestWordInPhrase.csproj", "{38F0F3A1-0CE2-4F26-A858-20AB04C6049E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +114,10 @@ Global
 		{32B95AA3-2B9A-4E2F-808C-C4A6BDC43A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32B95AA3-2B9A-4E2F-808C-C4A6BDC43A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32B95AA3-2B9A-4E2F-808C-C4A6BDC43A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F0F3A1-0CE2-4F26-A858-20AB04C6049E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F0F3A1-0CE2-4F26-A858-20AB04C6049E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F0F3A1-0CE2-4F26-A858-20AB04C6049E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F0F3A1-0CE2-4F26-A858-20AB04C6049E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B3F6EAE3-29C4-43F5-A2C7-BECD95053CBF} = {FC8ABC69-EED0-438E-B8FE-C6B80463E9B5}
@@ -128,5 +136,6 @@ Global
 		{4DF7D9C1-4757-455E-A3B2-2BEDA221A89F} = {437FCCDD-19FF-4853-B027-2AABADC770E1}
 		{6F094339-1374-4EFC-B4C0-78DBB7D171FF} = {437FCCDD-19FF-4853-B027-2AABADC770E1}
 		{32B95AA3-2B9A-4E2F-808C-C4A6BDC43A8A} = {437FCCDD-19FF-4853-B027-2AABADC770E1}
+		{38F0F3A1-0CE2-4F26-A858-20AB04C6049E} = {36BC65B9-897D-4973-92D0-4B8BEB5FECBA}
 	EndGlobalSection
 EndGlobal
