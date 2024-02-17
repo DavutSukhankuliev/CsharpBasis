@@ -18,10 +18,8 @@ namespace Task_6._2___IsPalindrome
             string cacheString = new string(sentence.ToLower().Replace(" ", "").ToCharArray());
             string newString = "";
             
-            foreach (char c in cacheString)
-            {
+            foreach (char c in cacheString) 
                 newString = c + newString;
-            }
             
             return cacheString.Equals(newString);
         }
