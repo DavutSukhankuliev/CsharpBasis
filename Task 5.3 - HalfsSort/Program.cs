@@ -11,50 +11,102 @@ namespace Task_5._3___HalfsSort
             for (var i = 0; i < array.Length; i++)
             {
                 array[i] = random.Next(-50, 51);
-                array[i] += 50;
                 Console.Write($"{array[i]} ");
             }
 
             Console.WriteLine();
-            var result = SortHalfsNorm(array, 100);
-            for (int i = 0; i < array.Length; i++)
+            Sort(array);
+            foreach (var t in array)
             {
-                array[i] -= 50;
-                Console.Write($"{array[i]} ");
+                Console.Write($"{t} ");
             }
         }
 
-        private static int[] SortHalfsNorm(int[] array, int maxValue)
+        private static void Sort(int[] array) 
         {
-            /*for (int i = 0; i < arr.Length; i++)
+            if (array == null || array.Length <= 1) 
             {
-                if (i < arr.Length / 2)
-                {
-                    
-                }
-                else
-                {
-                    
-                }
-            }*/
+                return;
+            }
+
+            MergeSortAlgorithm(array, 0, array.Length - 1);
+        }
+
+        private static void MergeSortAlgorithm(int[] array, int left, int right)
+        {
+            if (left >= right) return;
             
-            int[] counts = new int[maxValue + 1];
+            int middle = (left + right) / 2;
 
-            foreach (int num in array)
+            MergeSortAlgorithm(array, left, middle);
+            MergeSortAlgorithm(array, middle + 1, right);
+
+            if (right <= (array.Length - 1) / 2)
             {
-                counts[num]++;
+                Merge(array, left, middle, right);
             }
 
-            int index = 0;
-            for (int i = 0; i < counts.Length; i++)
+            if (left >= (array.Length - 1) / 2)
             {
-                for (int j = 0; j < counts[i]; j++)
+                Merge(array, left, middle, right, false);
+            }
+        }
+
+        private static void Merge(int[] array, int left, int middle, int right, bool isAZ = true) 
+        {
+            int[] tempArray = new int[array.Length];
+            Array.Copy(array, tempArray, array.Length);
+
+            int i = left;
+            int j = middle + 1;
+            int k = left;
+            
+            if (isAZ)
+            {
+                while (i <= middle && j <= right) 
                 {
-                    array[index++] = i;
+                    if (tempArray[i] <= tempArray[j]) 
+                    {
+                        array[k] = tempArray[i];
+                        i++;
+                    } else 
+                    {
+                        array[k] = tempArray[j];
+                        j++;
+                    }
+                    k++;
+                }
+
+                while (i <= middle) 
+                {
+                    array[k] = tempArray[i];
+                    k++;
+                    i++;
                 }
             }
+            else
+            {
+                while (i <= middle && j <= right) 
+                {
+                    if (tempArray[i] > tempArray[j]) 
+                    {
+                        array[k] = tempArray[i];
+                        i++;
+                    } else 
+                    {
+                        array[k] = tempArray[j];
+                        j++;
+                    }
+                    k++;
+                }
 
-            return array;
+                while (i <= middle) 
+                {
+                    array[k] = tempArray[i];
+                    k++;
+                    i++;
+                }
+            }
         }
     }
 }
