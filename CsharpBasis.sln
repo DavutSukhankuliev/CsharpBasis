@@ -62,6 +62,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 8.3 - GetTxtFileStatis
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 8 - FileSystem", "Lesson 8 - FileSystem", "{1B125093-899F-4283-8C17-43A33FBE91D4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 9 - ExceptionHandling", "Lesson 9 - ExceptionHandling", "{0B733E79-24D9-47A7-80DD-833DF65A844B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 9.1 - ExceptionHandlingCalculator", "Lesson 9 - ExceptionHandling\Task 9.1 - ExceptionHandlingCalculator\Task 9.1 - ExceptionHandlingCalculator.csproj", "{7F449ED0-285D-41A6-A8CB-E7D0CD198F33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -164,6 +168,10 @@ Global
 		{284EE34D-F429-4695-B8CB-F3D859AE635E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{284EE34D-F429-4695-B8CB-F3D859AE635E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{284EE34D-F429-4695-B8CB-F3D859AE635E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F449ED0-285D-41A6-A8CB-E7D0CD198F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F449ED0-285D-41A6-A8CB-E7D0CD198F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F449ED0-285D-41A6-A8CB-E7D0CD198F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F449ED0-285D-41A6-A8CB-E7D0CD198F33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B3F6EAE3-29C4-43F5-A2C7-BECD95053CBF} = {FC8ABC69-EED0-438E-B8FE-C6B80463E9B5}
@@ -190,5 +198,6 @@ Global
 		{FEA974E1-C617-4C83-9ADD-345DE4CE56C9} = {1B125093-899F-4283-8C17-43A33FBE91D4}
 		{79A9D4C6-FFB3-42B4-8E00-699DAE6943D0} = {1B125093-899F-4283-8C17-43A33FBE91D4}
 		{284EE34D-F429-4695-B8CB-F3D859AE635E} = {1B125093-899F-4283-8C17-43A33FBE91D4}
+		{7F449ED0-285D-41A6-A8CB-E7D0CD198F33} = {0B733E79-24D9-47A7-80DD-833DF65A844B}
 	EndGlobalSection
 EndGlobal
