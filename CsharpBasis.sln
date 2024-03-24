@@ -100,6 +100,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 17 - Generics", "Les
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 17.1 - BankAccount", "Lesson 17 - Generics\Task 17.1 - BankAccount\Task 17.1 - BankAccount.csproj", "{07DA7918-7A03-49D3-8338-DBBA38DC63D7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 18 - Collections", "Lesson 18 - Collections", "{EDC72FAF-DCF6-4FF0-92CD-AB590655FD00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 18.1 - Parenthesises", "Lesson 18 - Collections\Task 18.1 - Parenthesises\Task 18.1 - Parenthesises.csproj", "{7B3FC6BB-9F04-4296-8C1F-56B64A7BA41F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -242,6 +246,10 @@ Global
 		{07DA7918-7A03-49D3-8338-DBBA38DC63D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07DA7918-7A03-49D3-8338-DBBA38DC63D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07DA7918-7A03-49D3-8338-DBBA38DC63D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3FC6BB-9F04-4296-8C1F-56B64A7BA41F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3FC6BB-9F04-4296-8C1F-56B64A7BA41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3FC6BB-9F04-4296-8C1F-56B64A7BA41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3FC6BB-9F04-4296-8C1F-56B64A7BA41F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B3F6EAE3-29C4-43F5-A2C7-BECD95053CBF} = {FC8ABC69-EED0-438E-B8FE-C6B80463E9B5}
@@ -278,5 +286,6 @@ Global
 		{08D63C7E-EEE7-44F3-8509-EC3E5619C93C} = {C24107C9-62E7-4C6E-A636-95DF2F5A193F}
 		{5F1B4875-9D39-4F86-8D42-0CC8086FB612} = {C24107C9-62E7-4C6E-A636-95DF2F5A193F}
 		{07DA7918-7A03-49D3-8338-DBBA38DC63D7} = {51357554-04CF-4B6D-9702-18A4731F73AE}
+		{7B3FC6BB-9F04-4296-8C1F-56B64A7BA41F} = {EDC72FAF-DCF6-4FF0-92CD-AB590655FD00}
 	EndGlobalSection
 EndGlobal
