@@ -1,0 +1,27 @@
+[
+  {
+    "Id": 0,
+    "Name": "Шампунь",
+    "Price": 50
+  },
+  {
+    "Id": 1,
+    "Name": "мыло Dove",
+    "Price": 20
+  },
+  {
+    "Id": 2,
+    "Name": "Щетка OralB",
+    "Price": 30
+  },
+  {
+    "Id": 3,
+    "Name": "Паста Colgate",
+    "Price": 20
+  },
+  {
+    "Id": 4,
+    "Name": "Зубная нить Faberlic",
+    "Price": 29.989999999999998
+  }
+]
