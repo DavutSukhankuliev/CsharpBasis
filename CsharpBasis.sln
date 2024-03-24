@@ -74,6 +74,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 11 - Structures", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 11.1 - LinearStruct", "Lesson 11 - Structures\Task 11.1 - LinearStruct\Task 11.1 - LinearStruct.csproj", "{F81409F9-7D23-4716-AD3F-88F31B4BBDC7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson 12 - StaticMembers", "Lesson 12 - StaticMembers", "{A8D6D06B-16B5-498D-9EB1-8D44F0B4DA8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 12.1 - CircleClass", "Lesson 12 - StaticMembers\Lesson 12.1 - CircleClass\Lesson 12.1 - CircleClass.csproj", "{CE47AF2B-2740-4910-81BF-920886B42471}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -188,6 +192,10 @@ Global
 		{F81409F9-7D23-4716-AD3F-88F31B4BBDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F81409F9-7D23-4716-AD3F-88F31B4BBDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F81409F9-7D23-4716-AD3F-88F31B4BBDC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE47AF2B-2740-4910-81BF-920886B42471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE47AF2B-2740-4910-81BF-920886B42471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE47AF2B-2740-4910-81BF-920886B42471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE47AF2B-2740-4910-81BF-920886B42471}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B3F6EAE3-29C4-43F5-A2C7-BECD95053CBF} = {FC8ABC69-EED0-438E-B8FE-C6B80463E9B5}
@@ -217,5 +225,6 @@ Global
 		{7F449ED0-285D-41A6-A8CB-E7D0CD198F33} = {0B733E79-24D9-47A7-80DD-833DF65A844B}
 		{D1FE188C-0C2D-4EE6-876C-FD27F7F4CBD0} = {2929A14F-FD0E-4879-B78F-8CFAEDD4FE0E}
 		{F81409F9-7D23-4716-AD3F-88F31B4BBDC7} = {0E0071D8-256E-4276-8520-26E500236802}
+		{CE47AF2B-2740-4910-81BF-920886B42471} = {A8D6D06B-16B5-498D-9EB1-8D44F0B4DA8C}
 	EndGlobalSection
 EndGlobal
